@@ -1,0 +1,23 @@
+@startuml
+
+title Modelli meteorologici in COBOL per la stampa 3D
+
+: Modelli_meteorologici {
+     equazioni frattali
+     frattali in natura
+     dinamiche caotiche
+     equazioni di lorentz
+     equazioni frattali
+     equazioni spirali
+     attrattori
+     luoghi geometrici 
+}
+
+: Stampa 3d {
+    output file 
+}
+
+modelli meteorologici --> cobol 
+cobol --> stampa 3d
+
+@enduml
